@@ -14,9 +14,7 @@ import java.util.List;
 @RequestMapping("/customer")
 public class CustomerController {
 
-    //need to inject the customer dao
-//    @Autowired
-//    private CustomerDAO customerDAO;
+   
     @Autowired
     private CustomerService customerService;
 
